@@ -270,11 +270,6 @@ padding: 2rem 3rem;
     font-size: 1.3rem;
     font-weight: 300;
 }
-/* .members{
-    padding: 1rem;
-    font-size: 1.3rem;
-    font-weight: 500; 
-}  */
 
 .listdiv{
     display: flex;
@@ -356,7 +351,4 @@ padding: 2rem 3rem;
     outline: none;
     border: none;
 
-}
-@media(max-width:600px){
-    
 }
