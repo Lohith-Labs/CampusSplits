@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusSplits</title>
+    <link rel="icon" type="images/png" href="images/CampusKatha.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <div class="name"><img class="logo" src="images/CampusKatha.png" alt="">
+        <h1 class="title">Campus<span class="title-k">Splits</span></h1></div>
+    </nav>
+    <section class="head">
+        <div>
+             <p class="main-text">College Expense Splitter</p>
+        <p class="sub-text">Track group expences and settle up easily</p>
+        </div>
+       <div><button id="clr-btn" class="clr">Clear All</button></div>
+    </section>
+    <section id="members-container" class="grouping">
+        <h2 class="grouping-label">Crerate Group</h2>
+        <form id="grp-btn" action="">
+            <input id="g-name" class="gname" type="text" placeholder="Group Name" >
+            <input id="g-member" class="gname" type="text" placeholder="Enter Member Name">
+            <button id="members-btn" class="btn-mname">Add Member</button>
+        </form>
+        </div>
+    </section>
+    <section class="expence-detailes" id="ad-btn">
+        <div class="add-expence">
+            <h2 class="expence-title">Add Expence</h2>
+            <form id="expence-list" class="expence-list" action="">
+                <input id="e-name" type="text" placeholder="Expence Title e.g Dinner" required>
+                <input id="e-amount" type="text" placeholder="Amount /-" required>
+                <div class="selection" id="lead">
+                <p>Paid By</p>
+                </div>
+                <input id="e-upi" placeholder="UPI e.g XXXX@ybl" required>
+                <button  class="btn-summery">Add</button>
+            </form>
+        </div>
+        <div class="add-summery">
+            <h2 class="summery-title">Summery</h2>
+            <div class="summery-box">
+                <div class="sum-info">
+                    <h6>Total</h6>
+                    <p id="sum-price">0</p>
+                </div>
+                <div class="sum-info">
+                    <h6>Expences</h6>
+                    <p id="ex-count">0</p>
+                </div>
+                <div class="sum-info">
+                    <h6>Pending</h6>
+                    <p id="s-pending">0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="expence">
+        <div class="expence-info">
+            <h2>Expences</h2>
+            <h3>Who Owes Whom ?</h3>
+        </div>
+       
+           
+        
+<!-- <div class="group-1"> 
+        <h6 id="s-name" class="group-title">Dinner</h6>
+        <div class="group-head">
+            <p>Paid By <b id="s-lead">Chandu<b></p>
+            <div>
+            <h6>Total:<span id="s-amount">1250/-</span></h6>
+            <button class="btn-bill">Pay Now</button>
+            </div>
+        </div>
+
+        <ol type="1" class="members">
+            <li>
+                <div>
+                    <span>Uday</span>
+                    <p><span>250/-</span><span class="status">Pending</span></p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span>Vamsi</span>
+                    <p><span>250/-</span><span class="status">Pending</span></p>
+            </li>
+            <li>
+                <div>
+                    <span>Yuva</span>
+                    <p><span>250/-</span><span class="status">Pending</span></p>
+            </li>
+            <li>
+                <div>
+                    <span>Lohith</span>
+                    <p><span>250/-</span><span class="status">Pending</span></p>
+                </div>
+            </li>
+        </ol>
+</div> -->
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
